@@ -12,6 +12,7 @@
   font-weight: 600;
   font-size: 32px;
 }
+
 .main {
   display: flex;
   width: 90%;
@@ -28,6 +29,7 @@ h4 {
   font-weight: 600;
   font-size: 18px;
 }
+
 .btn {
   background-color: #fff;
   border: 2px solid #000;
