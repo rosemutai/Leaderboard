@@ -35,7 +35,8 @@
 
 This project is built with HTML, CSS & JavaScript
 
-**Leaderboard** is a simple project build to consume the leaderboard API
+**Leaderboard** is a simple project build to consume the leaderboard API. A user can add their name and 
+their score which then will be displayed on the list of the existing scores.
 
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 - HTML
