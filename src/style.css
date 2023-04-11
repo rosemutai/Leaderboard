@@ -7,16 +7,22 @@
   font-family: 'Prompt', sans-serif;
 }
 
+body {
+  background-color: #eee;
+}
+
 .title {
   padding: 20px;
   font-weight: 600;
   font-size: 32px;
+  color: #ff8c32;
 }
 
 .main {
   display: flex;
   width: 90%;
   margin: 4px auto;
+  justify-content: center;
 }
 
 .recent {
@@ -28,13 +34,14 @@ h4 {
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 18px;
+  color: #06113c;
 }
 
 .btn {
-  background-color: #fff;
-  border: 2px solid #000;
-  box-shadow: 3px 2px #000;
-  color: #000;
+  background-color: #424963;
+  border: 2px solid #06113c;
+  box-shadow: 3px 2px #06113c;
+  color: #eee;
   padding: 2px 6px;
 }
 
@@ -43,16 +50,19 @@ h4 {
 }
 
 .recent-scores {
-  border: 2px solid #000;
+  background-color: #06113c;
+  border: 2px solid #06113c;
   margin-top: 8px;
+  border-radius: 5px;
 }
 
 .recent-scores p {
-  padding: 2px;
+  padding: 6px;
+  color: #424963;
 }
 
 .recent-scores :nth-child(even) {
-  background-color: rgb(233, 233, 233);
+  background-color: #eee;
 }
 
 .form-section {
@@ -61,6 +71,7 @@ h4 {
 
 .form-section h4 {
   text-align: center;
+  color: #ff8c32;
 }
 
 form {
@@ -70,16 +81,41 @@ form {
 }
 
 input {
-  margin-bottom: 16px;
-  border: 2px solid #000;
+  margin-bottom: 26px;
+  border: 2px solid #06113c;
   padding: 2px;
+  background-color: #eee;
 }
 
 input::placeholder {
-  color: #000;
+  background-color: #eee;
+  color: #06113c;
 }
 
 .submit-btn {
   width: 70px;
   margin-left: auto;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 6px;
+  text-align: center;
+  background-color: #06113c;
+  color: #424963;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 2px 2px 4px #06113c;
+}
+
+.btn:hover {
+  background-color: #ff8c32;
+  transition: all 2s ease-in;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #eee;
 }

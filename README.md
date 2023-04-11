@@ -90,7 +90,6 @@ In order to run this project you need:
 - Git bash.
 - GitHub Account.
 - Installation of NPM
-- Installation of Live Server plugin in Visual Studio Code
 
 <!--
 Example command:
@@ -121,8 +120,7 @@ Example command:
 ```
 ### Usage
 To run the project, execute the following command:
-Open the cloned folder in visual Studio. Right click the index.html source code and click 
-  'Open with Live Server'. The project will open automatically in your default browser.
+Open the cloned folder in your git terminal. Then run 'npm start'.
 
 ### Run tests
 To run tests, run the following command:
