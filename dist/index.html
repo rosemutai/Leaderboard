@@ -7,8 +7,34 @@
   <title>Leaderboard</title>
 <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
 <body>
-  <h1 class="title">
-    Leaderboard
-  </h1>
+  <header>
+    <nav>
+      <h1 class="title">Leaderboard </h1>
+    </nav>
+  </header>
+  
+  <main class="main">
+    <div class="scores-section">
+      <div class="recent">
+        <h4>Recent scores</h4>
+        <button class="btn" id="refresh-btn">Refresh</button>
+      </div>
+      <div class="recent-scores" id="all-scores">
+        
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h4>Add your score</h4>
+      <form id="add-form">
+        <input type="text" name="name" id="user" placeholder="Your name">
+        <input type="text" name="score" id="score" placeholder="Your score">
+        <button type="submit" class="btn submit-btn">Submit</button>
+      </form>
+    </div>
+  </main>
+
 </body>
 </html>
+
+<!-- 0820183276375 -->
