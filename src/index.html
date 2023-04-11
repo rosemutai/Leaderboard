@@ -17,25 +17,19 @@
     <div class="scores-section">
       <div class="recent">
         <h4>Recent scores</h4>
-        <button class="btn">Refresh</button>
+        <button class="btn" id="refresh-btn">Refresh</button>
       </div>
-      <div class="recent-scores">
-        <p>Name: 100</p>
-        <p>Name: 20</p>
-        <p>Name: 50</p>
-        <p>Name: 78</p>
-        <p>Name: 125</p>
-        <p>Name: 77</p>
-        <p>Name: 42</p>
+      <div class="recent-scores" id="all-scores">
+        
       </div>
     </div>
 
     <div class="form-section">
       <h4>Add your score</h4>
-      <form>
-        <input type="text" name="name" id="name" placeholder="Your name">
+      <form id="add-form">
+        <input type="text" name="name" id="user" placeholder="Your name">
         <input type="text" name="score" id="score" placeholder="Your score">
-        <button class="btn submit-btn">Submit</button>
+        <button type="submit" class="btn submit-btn">Submit</button>
       </form>
     </div>
   </main>
