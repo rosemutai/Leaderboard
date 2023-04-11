@@ -1,9 +1,5 @@
 import './style.css';
 
-// {
-//   "result": "Game with ID: JQg6oO2j3TrBWpEacMxL added."
-// }
-
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/JQg6oO2j3TrBWpEacMxL/scores/';
 const form = document.getElementById('add-form');
 const userInput = document.getElementById('user');
