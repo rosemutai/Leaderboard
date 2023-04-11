@@ -50,15 +50,15 @@ h4 {
 }
 
 .recent-scores {
-  background-color: #424963;
-  border: 2px solid #424963;
+  background-color: #06113c;
+  border: 2px solid #06113c;
   margin-top: 8px;
   border-radius: 5px;
 }
 
 .recent-scores p {
   padding: 6px;
-  color: #06113c;
+  color: #424963;
 }
 
 .recent-scores :nth-child(even) {
