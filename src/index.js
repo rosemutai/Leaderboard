@@ -50,3 +50,5 @@ const fetchScores = async () => {
 refreshBtn.addEventListener('click', () => {
   fetchScores();
 });
+
+fetchScores();
