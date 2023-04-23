@@ -43,7 +43,8 @@ const fetchScores = async () => {
   data.result.sort((a, b) => b.score - a.score)
     .forEach((el) => {
       const pTag = document.createElement('p');
-      pTag.textContent = `${el.user}: ${el.score}`;
+      const formattedName = el.user.split('')[0].toUpperCase() + el.user.slice(1);
+      pTag.textContent = `${formattedName}: ${el.score}`;
       allScores.appendChild(pTag);
     });
 };
