@@ -54,19 +54,18 @@ h4 {
   border: 2px solid #06113c;
   margin-top: 8px;
   border-radius: 5px;
-  color: #424963;
+  color: #fff;
   height: auto;
   margin-bottom: 1rem;
 }
 
 .recent-scores p {
   padding: 6px;
-  /* color: #fff; */
 }
 
 .recent-scores :nth-child(even) {
   background-color: #eee;
-   /* color: #424963; */
+  color: #06113c;
 }
 
 .form-section {
