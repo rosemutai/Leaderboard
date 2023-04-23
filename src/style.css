@@ -54,15 +54,19 @@ h4 {
   border: 2px solid #06113c;
   margin-top: 8px;
   border-radius: 5px;
+  color: #424963;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .recent-scores p {
   padding: 6px;
-  color: #424963;
+  /* color: #fff; */
 }
 
 .recent-scores :nth-child(even) {
   background-color: #eee;
+   /* color: #424963; */
 }
 
 .form-section {
@@ -100,7 +104,6 @@ input::placeholder {
 .footer {
   width: 100%;
   position: absolute;
-  bottom: 0;
   padding: 6px;
   text-align: center;
   background-color: #06113c;
