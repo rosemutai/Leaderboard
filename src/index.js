@@ -40,12 +40,12 @@ const fetchScores = async () => {
   const response = await fetch(url);
   const data = await response.json();
 
-  Array.from(data).sort((a, b) => b.score - a.score);
-  data.result.forEach((el) => {
-    const pTag = document.createElement('p');
-    pTag.textContent = `${el.user}: ${el.score}`;
-    allScores.appendChild(pTag);
-  });
+  data.result.sort((a, b) => b.score - a.score)
+    .forEach((el) => {
+      const pTag = document.createElement('p');
+      pTag.textContent = `${el.user}: ${el.score}`;
+      allScores.appendChild(pTag);
+    });
 };
 
 refreshBtn.addEventListener('click', () => {
