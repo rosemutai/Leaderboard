@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+.title {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ff8c32;
+}
+
+.main {
+  display: flex;
+  width: 90%;
+  margin: 4px auto;
+  justify-content: center;
+}
+
+.recent {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #06113c;
+}
+
+.btn {
+  background-color: #424963;
+  border: 2px solid #06113c;
+  box-shadow: 3px 2px #06113c;
+  color: #eee;
+  padding: 2px 6px;
+}
+
+.scores-section {
+  width: 35%;
+}
+
+.recent-scores {
+  background-color: #06113c;
+  border: 2px solid #06113c;
+  margin-top: 8px;
+  border-radius: 5px;
+  color: #fff;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.recent-scores p {
+  padding: 6px;
+}
+
+.recent-scores :nth-child(even) {
+  background-color: #eee;
+  color: #06113c;
+}
+
+.form-section {
+  margin-left: 40px;
+}
+
+.form-section h4 {
+  text-align: center;
+  color: #ff8c32;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+input {
+  margin-bottom: 26px;
+  border: 2px solid #06113c;
+  padding: 2px;
+  background-color: #eee;
+}
+
+input::placeholder {
+  background-color: #eee;
+  color: #06113c;
+}
+
+.submit-btn {
+  width: 70px;
+  margin-left: auto;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  padding: 6px;
+  text-align: center;
+  background-color: #06113c;
+  color: #424963;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 2px 2px 4px #06113c;
+}
+
+.btn:hover {
+  background-color: #ff8c32;
+  transition: all 2s ease-in;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #eee;
+}
